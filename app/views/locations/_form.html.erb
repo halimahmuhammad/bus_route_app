@@ -13,31 +13,19 @@
 
  <div class="field">
     <%= form.text_field :address, 
-      placeholder: "Address or Approx. Location" %>
+      placeholder: "What is your Location?" %>
   </div>
 
   <div class="field">
     <%= form.text_field :city, placeholder: "City" %>
-  </div>
+
 
   <div class="actions">
     <%= form.submit %>
   </div>
 
 
-  <div class="field">
-    <%= form.label :latitude %>
-    <%= form.text_field :latitude, id: :location_latitude %>
-  </div>
-
-  <div class="field">
-    <%= form.label :longitude %>
-    <%= form.text_field :longitude, id: :location_longitude %>
-  </div>
-
-  <div class="actions">
-    <%= form.submit %>
-  </div>
+  
 <% end %>
 
 

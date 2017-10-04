@@ -1,0 +1,11 @@
+<div class="field">
+    <%= form.label :latitude %>
+    <%= form.text_field :latitude, id: :location_latitude %>
+  </div>
+
+  <div class="field">
+    <%= form.label :longitude %>
+    <%= form.text_field :longitude, id: :location_longitude %>
+  </div>
+
+  Goes inside the form.html.erb after class - action.
